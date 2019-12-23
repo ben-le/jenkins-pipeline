@@ -4,7 +4,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                    sudo yum install -y epel-release
 		    sudo yum install -y python-pip
 		    pip --version
 		    sudo yum install -y python-devel
