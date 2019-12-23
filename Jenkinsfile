@@ -7,7 +7,7 @@ pipeline {
 		    sudo yum install -y python-pip
 		    pip --version
 		    sudo yum install -y python-devel
-		    sudo yum groupinstall 'development tools'
+		    sudo yum groupinstall -y 'development tools'
                 '''
             }
         }
